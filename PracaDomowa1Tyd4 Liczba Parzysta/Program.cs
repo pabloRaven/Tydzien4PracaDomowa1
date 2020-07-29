@@ -6,7 +6,6 @@ namespace Liczba_Parzysta_nieparzysta
         {
             static void Main(string[] args)
             {
-
                 try
                 {
                     Console.WriteLine("Podaj dowolną liczbę całkowitą ");
@@ -16,17 +15,13 @@ namespace Liczba_Parzysta_nieparzysta
                         Console.WriteLine("Liczba parzysta");
                     else
                         Console.WriteLine("Liczba nieparzysta");
-
-
                 }
                 catch (Exception)
                 {
 
                     Console.WriteLine("Błąd .Podane dane nie są liczbą całkowitą");
                 }
-
             }
-
         }
     }
 
